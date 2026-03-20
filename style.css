@@ -1239,7 +1239,7 @@ body {
 
 /* Main Text */
 .final-text {
-    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-size: 3rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     color: #ff4b5c;
@@ -1409,21 +1409,4 @@ body {
 
 .card2-message p {
     margin-bottom: 14px;
-}
-@media screen and (max-width: 768px) {
-
-    .final-box {
-        padding: 25px 20px;   /* smaller box */
-        width: 90%;
-    }
-
-    .final-text {
-        font-size: 1.8rem;   /* smaller heading */
-        line-height: 1.3;
-    }
-
-    .final-sub {
-        font-size: 1rem;
-        padding: 0 10px;
-    }
 }
